@@ -156,5 +156,4 @@
 <%@ include file="/users/fragments/footer.jsp" %>
 
 </body>
-
 </html>

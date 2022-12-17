@@ -17,7 +17,6 @@ public class DbUtil {
     public static Connection connectWorkshop3() throws SQLException {
         return getInstance().getConnection();
     }
-
     private static DataSource getInstance() {
         if (dataSource == null) {
             try {
